@@ -85,7 +85,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="bg-overlay"></div>
                 <div class="row">
                     <div class="col-sm-12">
-                       <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                       <div id="mycarousel" class="carousel slide slider-top" data-ride="carousel">
                           <!-- Indicators -->
                           <ol class="carousel-indicators">
                             <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
@@ -128,6 +128,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 </div>
                             </div>
                           </div>
+
+                          <!-- Controls -->
+                          <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
+                            <span class="fa fa-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+                            <span class="fa fa-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
                         </div>
                     </div>
                 </div>

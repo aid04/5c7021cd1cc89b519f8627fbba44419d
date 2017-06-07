@@ -929,6 +929,9 @@ h3.carousel-cap{
   background-position: center;
   background-repeat: no-repeat;
 }
+a .fa{
+  margin-top: 150%;
+}
 
 /*Pricing Plan Layout*/
 .features-box{

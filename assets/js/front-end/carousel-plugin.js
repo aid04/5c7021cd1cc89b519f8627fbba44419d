@@ -1,10 +1,10 @@
-var $item = $('.carousel .item'); 
+var $item = $('.slider-top .item'); 
 var $wHeight = $(window).height();
 $item.eq(0).addClass('active');
 $item.height($wHeight); 
 $item.addClass('full-screen');
 
-$('.carousel img').each(function() {
+$('.slider-top img').each(function() {
   var $src = $(this).attr('src');
   var $color = $(this).attr('data-color');
   $(this).parent().css({
@@ -19,7 +19,7 @@ $(window).on('resize', function (){
   $item.height($wHeight);
 });
 
-$('.carousel').carousel({
+$('.slider-top').carousel({
   interval: 4000,
   pause: "false"
 });
