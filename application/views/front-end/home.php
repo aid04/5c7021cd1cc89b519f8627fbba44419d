@@ -359,171 +359,98 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                 <div class="row">
                     <div class="col-sm-3">
-                        <div id="carousel-merchant" data-ride="carousel" class="carousel slide">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carousel-merchant" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-merchant" data-slide-to="1"></li>
-                                <li data-target="#carousel-merchant" data-slide-to="2"></li>
-                            </ol>
-                            <div role="listbox" class="carousel-inner">
-                                <div class="item active">
-                                    <img src="<?php echo base_url(); ?>assets/images/slide-sample.png" alt="First slide image">
-                                </div>
-                                <div class="item">
-                                    <img src="<?php echo base_url(); ?>assets/images/slide-sample.png" alt="Second slide image">
-                                </div>
-                                <div class="item">
-                                    <img src="<?php echo base_url(); ?>assets/images/slide-sample.png" alt="Third slide image">
-                                </div>
+                        <div class="featured-merchant-img text-center">
+                            <div class="ratings">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-sm-3">
-                        <div id="carousel-merchant2" data-ride="carousel" class="carousel slide">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carousel-merchant2" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-merchant2" data-slide-to="1"></li>
-                                <li data-target="#carousel-merchant2" data-slide-to="2"></li>
-                            </ol>
-                            <div role="listbox" class="carousel-inner">
-                                <div class="item active">
-                                    <img src="<?php echo base_url(); ?>assets/images/slide-sample.png" alt="First slide image">
-                                </div>
-                                <div class="item">
-                                    <img src="<?php echo base_url(); ?>assets/images/slide-sample.png" alt="Second slide image">
-                                </div>
-                                <div class="item">
-                                    <img src="<?php echo base_url(); ?>assets/images/slide-sample.png" alt="Third slide image">
-                                </div>
+                        <div class="featured-merchant-img text-center">
+                            <div class="ratings">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-sm-3">
-                        <div id="carousel-merchant3" data-ride="carousel" class="carousel slide">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carousel-merchant3" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-merchant3" data-slide-to="1"></li>
-                                <li data-target="#carousel-merchant3" data-slide-to="2"></li>
-                            </ol>
-                            <div role="listbox" class="carousel-inner">
-                                <div class="item active">
-                                    <img src="<?php echo base_url(); ?>assets/images/slide-sample.png" alt="First slide image">
-                                </div>
-                                <div class="item">
-                                    <img src="<?php echo base_url(); ?>assets/images/slide-sample.png" alt="Second slide image">
-                                </div>
-                                <div class="item">
-                                    <img src="<?php echo base_url(); ?>assets/images/slide-sample.png" alt="Third slide image">
-                                </div>
+                        <div class="featured-merchant-img text-center">
+                            <div class="ratings">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-sm-3">
-                        <div id="carousel-merchant4" data-ride="carousel" class="carousel slide">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carousel-merchant" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-merchant4" data-slide-to="1"></li>
-                                <li data-target="#carousel-merchant4" data-slide-to="2"></li>
-                            </ol>
-                            <div role="listbox" class="carousel-inner">
-                                <div class="item active">
-                                    <img src="<?php echo base_url(); ?>assets/images/slide-sample.png" alt="First slide image">
-                                </div>
-                                <div class="item">
-                                    <img src="<?php echo base_url(); ?>assets/images/slide-sample.png" alt="Second slide image">
-                                </div>
-                                <div class="item">
-                                    <img src="<?php echo base_url(); ?>assets/images/slide-sample.png" alt="Third slide image">
-                                </div>
+                        <div class="featured-merchant-img text-center">
+                            <div class="ratings">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
                             </div>
                         </div>
                     </div>
-
                     <div class="col-sm-12 spacing"></div>
 
                     <div class="col-sm-3">
-                        <div id="carousel-merchant5" data-ride="carousel" class="carousel slide">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carousel-merchant5" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-merchant5" data-slide-to="1"></li>
-                                <li data-target="#carousel-merchant5" data-slide-to="2"></li>
-                            </ol>
-                            <div role="listbox" class="carousel-inner">
-                                <div class="item active">
-                                    <img src="<?php echo base_url(); ?>assets/images/slide-sample.png" alt="First slide image">
-                                </div>
-                                <div class="item">
-                                    <img src="<?php echo base_url(); ?>assets/images/slide-sample.png" alt="Second slide image">
-                                </div>
-                                <div class="item">
-                                    <img src="<?php echo base_url(); ?>assets/images/slide-sample.png" alt="Third slide image">
-                                </div>
+                        <div class="featured-merchant-img text-center">
+                            <div class="ratings">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-sm-3">
-                        <div id="carousel-merchant6" data-ride="carousel" class="carousel slide">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carousel-merchant6" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-merchant6" data-slide-to="1"></li>
-                                <li data-target="#carousel-merchant6" data-slide-to="2"></li>
-                            </ol>
-                            <div role="listbox" class="carousel-inner">
-                                <div class="item active">
-                                    <img src="<?php echo base_url(); ?>assets/images/slide-sample.png" alt="First slide image">
-                                </div>
-                                <div class="item">
-                                    <img src="<?php echo base_url(); ?>assets/images/slide-sample.png" alt="Second slide image">
-                                </div>
-                                <div class="item">
-                                    <img src="<?php echo base_url(); ?>assets/images/slide-sample.png" alt="Third slide image">
-                                </div>
+                        <div class="featured-merchant-img text-center">
+                            <div class="ratings">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-sm-3">
-                        <div id="carousel-merchant7" data-ride="carousel" class="carousel slide">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carousel-merchant7" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-merchant7" data-slide-to="1"></li>
-                                <li data-target="#carousel-merchant7" data-slide-to="2"></li>
-                            </ol>
-                            <div role="listbox" class="carousel-inner">
-                                <div class="item active">
-                                    <img src="<?php echo base_url(); ?>assets/images/slide-sample.png" alt="First slide image">
-                                </div>
-                                <div class="item">
-                                    <img src="<?php echo base_url(); ?>assets/images/slide-sample.png" alt="Second slide image">
-                                </div>
-                                <div class="item">
-                                    <img src="<?php echo base_url(); ?>assets/images/slide-sample.png" alt="Third slide image">
-                                </div>
+                        <div class="featured-merchant-img text-center">
+                            <div class="ratings">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-sm-3">
-                        <div id="carousel-merchant" data-ride="carousel" class="carousel slide">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carousel-merchant" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-merchant" data-slide-to="1"></li>
-                                <li data-target="#carousel-merchant" data-slide-to="2"></li>
-                            </ol>
-                            <div role="listbox" class="carousel-inner">
-                                <div class="item active">
-                                    <img src="<?php echo base_url(); ?>assets/images/slide-sample.png" alt="First slide image">
-                                </div>
-                                <div class="item">
-                                    <img src="<?php echo base_url(); ?>assets/images/slide-sample.png" alt="Second slide image">
-                                </div>
-                                <div class="item">
-                                    <img src="<?php echo base_url(); ?>assets/images/slide-sample.png" alt="Third slide image">
-                                </div>
+                        <div class="featured-merchant-img text-center">
+                            <div class="ratings">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
                             </div>
                         </div>
                     </div>

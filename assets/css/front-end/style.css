@@ -929,7 +929,7 @@ h3.carousel-cap{
   background-position: center;
   background-repeat: no-repeat;
 }
-a .fa{
+a.carousel-control .fa{
   margin-top: 150%;
 }
 
@@ -971,14 +971,18 @@ a .fa{
 .merchant-location{
   padding-top: 0px;
 }
+.location-box1{
+  background-image: url('../../images/slide-sample.png');
+}
 .box{
   height: 255px;
   position: relative;
-  width: 100%;
+  width: 100%;    /* desired width */
   margin-bottom: 30px;
   background-color: #8b8b8b;
   text-align: center;
   overflow: hidden;
+/*  background-position: center;*/
   background-position: 0%;
   transition: 6s;
 }
@@ -986,22 +990,30 @@ a .fa{
   background-position: 100%;
   transition: 6s;
 }
-.location-box1{
-  background-image: url('../../images/slide-sample.png');
-}
-.content{
-  vertical-align: middle;
+.box:before{
+  content: "";
+  display: block;
+  padding-top: 100%;  /* initial ratio of 1:1*/
 }
 .content h3 {
-  color: #fff;
-  font-size: 25px;
-  width: 55%;
+  position:  absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.content h3:hover {
+    background: rgba(0, 0, 0, 0.4);
+    transition: 0.5s;
+}
+#exploresec h3 {
   text-align: center;
-  margin: 0 auto;
-  padding: 20px 0px 50px 0px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 100;
-  text-shadow: 0px 0px 3px #f4f4f4;
+  color: #fff;
+  padding: 105px 0px; 
+  margin: 0;
 }
 
 /*Quick Search*/
@@ -1022,6 +1034,17 @@ a .fa{
   background: rgba(125,125,125,0.3);
   padding-top: 30px;
   padding-bottom: 30px;
+}
+.featured-merchant-img{
+  background-image: url('../../images/slide-sample.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 180px;
+}
+.ratings{
+  padding-top: 150px;
+  color: #5D9CEC;
 }
 .spacing{
   margin: 10px 0px;
