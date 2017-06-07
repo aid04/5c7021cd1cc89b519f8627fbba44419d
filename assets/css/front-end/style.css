@@ -919,19 +919,15 @@ i.icons{
 }
 
 /*Carousel Layout*/
-html,body{
-  height:100%;
+h3.carousel-cap{
+  display: inline-block;
+  padding: 10px;
 }
-.carousel,.item,.active{
-  height:100%;
-}
-.carousel-inner{
-  height:100%;
-}
-.carousel a span.fa{
-  margin-top: 500px;
-  font-size: 3em;
-  font-weight: 200;
+
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /*Pricing Plan Layout*/
@@ -969,6 +965,9 @@ html,body{
 }
 
 /*Merchant Gallery*/
+.merchant-location{
+  padding-top: 0px;
+}
 .box{
   height: 255px;
   position: relative;
@@ -1014,16 +1013,18 @@ html,body{
   display: block;
 }
 
+/*Featured Merchants adjusted design and layout*/
 .featured-merchant{
   margin-top: 10px;
   background: rgba(125,125,125,0.3);
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
 .spacing{
   margin: 10px 0px;
 }
+
+/*Services div background*/
 .img-circle{
   margin: 10px auto;
   border-radius: 50%%;
@@ -1034,22 +1035,23 @@ html,body{
   background-color: rgba(25,25,25,0.3);
 }
 
+/*footer navigation menu*/
 footer{
   padding: 10px 10px;
 
 }
-
 .footer-nav{
   background-color: #36454E;
   color: #7693A3;
 }
-
 .footer-right{
   float: right;
 }
 .footer-menu{
   padding-left: 20px;
 }
+
+/*footer copyright*/
 .copyright p{
   color: #7693A3;
   line-height: 0px;

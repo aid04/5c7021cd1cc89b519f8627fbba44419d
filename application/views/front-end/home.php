@@ -84,50 +84,53 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <section class="home bg-img-1" id="home">
             <div class="bg-overlay"></div>
                 <div class="row">
-                    <div class="col-sm-12 text-center">
-                        <div class="home-fullscreen">
-                            <div class="full-screen">
-                                <div id="carousel-captions" data-ride="carousel" class="carousel slide">
-                                    <ol class="carousel-indicators">
-                                        <li data-target="#carousel-captions" data-slide-to="0" class="active"></li>
-                                        <li data-target="#carousel-captions" data-slide-to="1"></li>
-                                        <li data-target="#carousel-captions" data-slide-to="2"></li>
-                                    </ol>
-                                    <div role="listbox" class="carousel-inner">
-                                        <div class="item active">
-                                            <img src="<?php echo base_url(); ?>assets/images/slide-sample.png" alt="First slide image">
-                                            <div class="carousel-caption">
-                                                <h3 class="text-white font-600">First slide label</h3>
-                                                <p>
-                                                    Nulla vitae elit libero, a pharetra augue mollis interdum.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <img src="<?php echo base_url(); ?>assets/images/slide-sample.png" alt="Second slide image">
-                                            <div class="carousel-caption">
-                                                <h3 class="text-white font-600">Second slide label</h3>
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <img src="<?php echo base_url(); ?>assets/images/slide-sample.png" alt="Third slide image">
-                                            <div class="carousel-caption">
-                                                <h3 class="text-white font-600">Third slide label</h3>
-                                                <p>
-                                                    Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <a href="#carousel-captions" role="button" data-slide="prev" class="left carousel-control"> <span aria-hidden="true" class="fa fa-angle-left"></span> <span class="sr-only">Previous</span> </a>
-                                    <a href="#carousel-captions" role="button" data-slide="next" class="right carousel-control"> <span aria-hidden="true" class="fa fa-angle-right"></span> <span class="sr-only">Next</span> </a>
+                    <div class="col-sm-12">
+                       <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                          <!-- Indicators -->
+                          <ol class="carousel-indicators">
+                            <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#mycarousel" data-slide-to="1"></li>
+                            <li data-target="#mycarousel" data-slide-to="2"></li>
+                            <li data-target="#mycarousel" data-slide-to="3"></li>
+                            <li data-target="#mycarousel" data-slide-to="4"></li>
+                          </ol>
+
+                          <!-- Wrapper for slides -->
+                          <div class="carousel-inner" role="listbox">
+                            <div class="item">
+                                <img src="<?php echo base_url(); ?>assets/images/slide-sample.png" data-color="lightblue" alt="First Image">
+                                <div class="carousel-caption">
+                                    <h3 class="carousel-cap">First Image</h3>
                                 </div>
                             </div>
+                            <div class="item">
+                                <img src="<?php echo base_url(); ?>assets/images/slide-sample.png" data-color="firebrick" alt="Second Image">
+                                <div class="carousel-caption">
+                                    <h3 class="carousel-cap">Second Image</h3>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="<?php echo base_url(); ?>assets/images/slide-sample.png" data-color="violet" alt="Third Image">
+                                <div class="carousel-caption">
+                                    <h3 class="carousel-cap">Third Image</h3>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="<?php echo base_url(); ?>assets/images/slide-sample.png" data-color="lightgreen" alt="Fourth Image">
+                                <div class="carousel-caption">
+                                    <h3 class="carousel-cap">Fourth Image</h3>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="<?php echo base_url(); ?>assets/images/slide-sample.png" data-color="tomato" alt="Fifth Image">
+                                <div class="carousel-caption">
+                                    <h3 class="carousel-cap">Fifth Image</h3>
+                                </div>
+                            </div>
+                          </div>
                         </div>
                     </div>
+                </div>
             </div>
         </section>
         <!-- END HOME -->
@@ -201,7 +204,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
         <!-- Features Alt -->
-        <section class="section">
+        <section class="section merchant-location">
             <div class="container">
                 
                 <div class="row" id="exploresec">
@@ -632,7 +635,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <!--common script for all pages-->
         <script src="<?php echo base_url(); ?>/assets/js/front-end/jquery.app.js"></script>
-
+        <script src="<?php echo base_url(); ?>/assets/js/front-end/carousel-plugin.js"></script>
         <script type="text/javascript">
             $('.owl-carousel').owlCarousel({
                 loop:true,
