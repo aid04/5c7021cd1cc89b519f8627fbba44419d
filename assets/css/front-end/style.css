@@ -1013,3 +1013,45 @@ html,body{
 .qi-box{
   display: block;
 }
+
+.featured-merchant{
+  margin-top: 10px;
+  background: rgba(125,125,125,0.3);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.spacing{
+  margin: 10px 0px;
+}
+.img-circle{
+  margin: 10px auto;
+  border-radius: 50%%;
+  width: 200px;
+  height: 200px;
+  padding-top: 90px;
+  font-size: 26px;
+  background-color: rgba(25,25,25,0.3);
+}
+
+footer{
+  padding: 10px 10px;
+
+}
+
+.footer-nav{
+  background-color: #36454E;
+  color: #7693A3;
+}
+
+.footer-right{
+  float: right;
+}
+.footer-menu{
+  padding-left: 20px;
+}
+.copyright p{
+  color: #7693A3;
+  line-height: 0px;
+  margin: 0;
+}

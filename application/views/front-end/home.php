@@ -367,7 +367,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
         <!-- Features Alt -->
-        <section class="section quick-sec">
+        <section class="section featured-merchant">
             <div class="container">
 
                 <div class="row">
@@ -399,11 +399,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
 
                     <div class="col-sm-3">
-                        <div id="carousel-merchant" data-ride="carousel" class="carousel slide">
+                        <div id="carousel-merchant2" data-ride="carousel" class="carousel slide">
                             <ol class="carousel-indicators">
-                                <li data-target="#carousel-merchant" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-merchant" data-slide-to="1"></li>
-                                <li data-target="#carousel-merchant" data-slide-to="2"></li>
+                                <li data-target="#carousel-merchant2" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-merchant2" data-slide-to="1"></li>
+                                <li data-target="#carousel-merchant2" data-slide-to="2"></li>
                             </ol>
                             <div role="listbox" class="carousel-inner">
                                 <div class="item active">
@@ -420,11 +420,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
 
                     <div class="col-sm-3">
-                        <div id="carousel-merchant" data-ride="carousel" class="carousel slide">
+                        <div id="carousel-merchant3" data-ride="carousel" class="carousel slide">
                             <ol class="carousel-indicators">
-                                <li data-target="#carousel-merchant" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-merchant" data-slide-to="1"></li>
-                                <li data-target="#carousel-merchant" data-slide-to="2"></li>
+                                <li data-target="#carousel-merchant3" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-merchant3" data-slide-to="1"></li>
+                                <li data-target="#carousel-merchant3" data-slide-to="2"></li>
                             </ol>
                             <div role="listbox" class="carousel-inner">
                                 <div class="item active">
@@ -441,11 +441,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
 
                     <div class="col-sm-3">
-                        <div id="carousel-merchant" data-ride="carousel" class="carousel slide">
+                        <div id="carousel-merchant4" data-ride="carousel" class="carousel slide">
                             <ol class="carousel-indicators">
                                 <li data-target="#carousel-merchant" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-merchant" data-slide-to="1"></li>
-                                <li data-target="#carousel-merchant" data-slide-to="2"></li>
+                                <li data-target="#carousel-merchant4" data-slide-to="1"></li>
+                                <li data-target="#carousel-merchant4" data-slide-to="2"></li>
                             </ol>
                             <div role="listbox" class="carousel-inner">
                                 <div class="item active">
@@ -460,14 +460,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
+
+                    <div class="col-sm-12 spacing"></div>
+
                     <div class="col-sm-3">
-                        <div id="carousel-merchant" data-ride="carousel" class="carousel slide">
+                        <div id="carousel-merchant5" data-ride="carousel" class="carousel slide">
                             <ol class="carousel-indicators">
-                                <li data-target="#carousel-merchant" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-merchant" data-slide-to="1"></li>
-                                <li data-target="#carousel-merchant" data-slide-to="2"></li>
+                                <li data-target="#carousel-merchant5" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-merchant5" data-slide-to="1"></li>
+                                <li data-target="#carousel-merchant5" data-slide-to="2"></li>
                             </ol>
                             <div role="listbox" class="carousel-inner">
                                 <div class="item active">
@@ -484,11 +485,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
 
                     <div class="col-sm-3">
-                        <div id="carousel-merchant" data-ride="carousel" class="carousel slide">
+                        <div id="carousel-merchant6" data-ride="carousel" class="carousel slide">
                             <ol class="carousel-indicators">
-                                <li data-target="#carousel-merchant" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-merchant" data-slide-to="1"></li>
-                                <li data-target="#carousel-merchant" data-slide-to="2"></li>
+                                <li data-target="#carousel-merchant6" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-merchant6" data-slide-to="1"></li>
+                                <li data-target="#carousel-merchant6" data-slide-to="2"></li>
                             </ol>
                             <div role="listbox" class="carousel-inner">
                                 <div class="item active">
@@ -505,11 +506,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
 
                     <div class="col-sm-3">
-                        <div id="carousel-merchant" data-ride="carousel" class="carousel slide">
+                        <div id="carousel-merchant7" data-ride="carousel" class="carousel slide">
                             <ol class="carousel-indicators">
-                                <li data-target="#carousel-merchant" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-merchant" data-slide-to="1"></li>
-                                <li data-target="#carousel-merchant" data-slide-to="2"></li>
+                                <li data-target="#carousel-merchant7" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-merchant7" data-slide-to="1"></li>
+                                <li data-target="#carousel-merchant7" data-slide-to="2"></li>
                             </ol>
                             <div role="listbox" class="carousel-inner">
                                 <div class="item active">
@@ -553,184 +554,90 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
         <!-- Testimonials section -->
-        <section class="section bg-img-1">
-            <div class="bg-overlay"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
-                        <div class="owl-carousel text-center">
-                            <div class="item">
-                                <div class="testimonial-box">
-                                    <h4>Excellent support for a tricky issue related to our customization of the template. Author kept us updated as he made progress on the issue and emailed us a patch when he was done.</h4>
-                                    <img src="images/user.jpg" class="testi-user img-circle" alt="testimonials-user">
-                                    <p>- Ubold User</p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="testimonial-box">
-                                    <h4>Flexible, Everything is in, Suuuuuper light, even for the code is much easier to cut and make it a theme for a productive app..</h4>
-                                    <img src="images/user2.jpg" class="testi-user img-circle" alt="testimonials-user">
-                                    <p>- Ubold User</p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="testimonial-box">
-                                    <h4>Not only the code, design and support are awesome, but they also update it constantly the template with new content, new plugins. I will buy surely another coderthemes template!</h4>
-                                    <img src="images/user3.jpg" class="testi-user img-circle" alt="testimonials-user">
-                                    <p>- Ubold User</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- End Testimonials section -->
-
-
-        <!-- PRICING -->
-        <section class="section" id="pricing">
+        <section class="section">
             <div class="container">
 
                 <div class="row">
                     <div class="col-sm-12 text-center">
-                        <h3 class="title">Pricing</h3>
-                        <p class="text-muted sub-title">The clean and well commented code allows easy customization of the theme.It's <br> designed for describing your app, agency or business.</p>
+                        <h1 class="title">Featured Merchants</h1>
                     </div>
                 </div> <!-- end row -->
 
-
                 <div class="row">
-                    <div class="col-lg-10 col-lg-offset-1">
-                        <div class="row">
-
-                            <!--Pricing Column-->
-                            <article class="pricing-column col-lg-4 col-md-4">
-                                <div class="inner-box">
-                                    <div class="plan-header text-center">
-                                        <h3 class="plan-title">Ragular</h3>
-                                        <h2 class="plan-price">$24</h2>
-                                        <div class="plan-duration">Per License</div>
-                                    </div>
-                                    <ul class="plan-stats list-unstyled">
-                                        <li> <i class="pe-7s-server"></i>Number of end products <b>1</b></li>
-                                        <li> <i class="pe-7s-graph"></i>Customer support</li>
-                                        <li> <i class="pe-7s-mail-open"></i>Free Updates</li>
-                                        <li> <i class="pe-7s-tools"></i>24x7 Support</li>
-                                    </ul>
-
-                                    <div class="text-center">
-                                        <a href="#" class="btn btn-sm btn-custom">Purchase Now</a>
-                                    </div>
-                                </div>
-                            </article>
-
-
-                            <!--Pricing Column-->
-                            <article class="pricing-column col-lg-4 col-md-4">
-                                <div class="inner-box active">
-                                    <div class="plan-header text-center">
-                                        <h3 class="plan-title">Multiple</h3>
-                                        <h2 class="plan-price">$120</h2>
-                                        <div class="plan-duration">Per License</div>
-                                    </div>
-                                    <ul class="plan-stats list-unstyled">
-                                        <li> <i class="pe-7s-server"></i>Number of end products <b>1</b></li>
-                                        <li> <i class="pe-7s-graph"></i>Customer support</li>
-                                        <li> <i class="pe-7s-mail-open"></i>Free Updates</li>
-                                        <li> <i class="pe-7s-tools"></i>24x7 Support</li>
-                                    </ul>
-
-                                    <div class="text-center">
-                                        <a href="#" class="btn btn-sm btn-custom">Purchase Now</a>
-                                    </div>
-                                </div>
-                            </article>
-
-
-                            <!--Pricing Column-->
-                            <article class="pricing-column col-lg-4 col-md-4">
-                                <div class="inner-box">
-                                    <div class="plan-header text-center">
-                                        <h3 class="plan-title">Extended</h3>
-                                        <h2 class="plan-price">$999</h2>
-                                        <div class="plan-duration">Per License</div>
-                                    </div>
-                                    <ul class="plan-stats list-unstyled">
-                                        <li> <i class="pe-7s-server"></i>Number of end products <b>1</b></li>
-                                        <li> <i class="pe-7s-graph"></i>Customer support</li>
-                                        <li> <i class="pe-7s-mail-open"></i>Free Updates</li>
-                                        <li> <i class="pe-7s-tools"></i>24x7 Support</li>
-                                    </ul>
-
-                                    <div class="text-center">
-                                        <a href="#" class="btn btn-sm btn-custom">Purchase Now</a>
-                                    </div>
-                                </div>
-                            </article>
-
+                    <div class="col-sm-4 ">
+                        <div class="img-circle text-center">
+                            <p>Go Asst</p>
                         </div>
-                    </div><!-- end col -->
-                </div>
-                 <!-- end row -->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat odio non nulla tempor, blandit efficitur risus pharetra. Proin eleifend quis leo id malesuada. Vestibulum a luctus velit.</p>
+                    </div>
 
-            </div> <!-- end container -->
-        </section>
-        <!-- End Pricing -->
+                    <div class="col-sm-4 ">
+                        <div class="img-circle text-center">
+                            <p>Go Med</p>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat odio non nulla tempor, blandit efficitur risus pharetra. Proin eleifend quis leo id malesuada. Vestibulum a luctus velit.</p>
+                    </div>
 
-
-        <!-- Clients -->
-        <section class="section p-t-0" id="clients">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 text-center">
-                        <h3 class="title">Trusted by Thousands</h3>
-                        <p class="text-muted sub-title">The clean and well commented code allows easy customization of the theme.It's <br/> designed for describing your app, agency or business.</p>
+                    <div class="col-sm-4 ">
+                        <div class="img-circle text-center">
+                            <p>Go Shop</p>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat odio non nulla tempor, blandit efficitur risus pharetra. Proin eleifend quis leo id malesuada. Vestibulum a luctus velit.</p>
                     </div>
                 </div>
-                <!-- end row -->
-
-                <div class="row text-center">
-                    <div class="col-sm-12">
-                        <ul class="list-inline client-list">
-                            <li><a href="" title="Microsoft"><img src="images/clients/microsoft.png" alt="clients"></a></li>
-                            <li><a href="" title="Google"><img src="images/clients/google.png" alt="clients"></a></li>
-                            <li><a href="" title="Instagram"><img src="images/clients/instagram.png" alt="clients"></a></li>
-                            <li><a href="" title="Converse"><img src="images/clients/converse.png" alt="clients"></a></li>
-                        </ul>
-                    </div> <!-- end Col -->
-
-                </div><!-- end row -->
-
             </div>
         </section>
-        <!--End  Clients -->
 
 
-        <!-- FOOTER -->
-        <footer class="footer">
+        <!--Footer Navbar-->
+        <footer class="footer footer-nav">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-md-3">
-                        <a class="navbar-brand logo" href="index.html">
-                            UB<span class="text-custom">o</span>ld
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-lg-offset-3 col-md-7">
-                        <ul class="nav navbar-nav">
-                            <li><a href="#">How it works</a></li>
-                            <li><a href="#">Features</a></li>
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">Clients</a></li>
+                    <div class="col-lg-3 col-md-2">
+                        <h3>Quick Links</h3>
+                        <ul class="footer-menu">
+                            <li>About Us</li>
+                            <li>Contact Us</li>
+                            <li>FAQ</li>
                         </ul>
                     </div>
-                    <div class="col-lg-2 col-md-2">
+                    <div class="col-lg-3 col-lg-offset-2 col-md-6">
+                        <h3>Follow Us</h3>
+                        <h5>Stay with us!</h5>
                         <ul class="social-icons">
                             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+
                         </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <h3>Subscribe to Our Newsletter</h3>
+                        <p>Enjoy exclusive updates and previews just for you!</p>
+                        <input type="text" id="state-warning" name="state-warning" class="form-control" placeholder="Enter Your Email Address">
+                        <br>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-warning waves-effect waves-light">Subscribe</button>
+                        </div>
+                    </div>
+                </div> <!-- end row -->
+            </div> <!-- end container -->
+        </footer>
+        <!--End of Footer Navbar-->
+
+        <!-- FOOTER -->
+        <footer class="footer copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <p>Copyright &copy; 2016All Rights Reseved | Terms and Conditions | Sitemap</p>                
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="footer-right">
+                            <p>Website Proudly Made By: Innov8tive Design &amp; Development</p>
+                        </div>
                     </div>
                 </div> <!-- end row -->
             </div> <!-- end container -->
