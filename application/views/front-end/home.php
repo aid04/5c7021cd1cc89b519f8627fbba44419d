@@ -10,7 +10,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <link rel="shortcut icon" href="images/favicon.ico">
 
-        <title>Go Local</title>
+        <title>Go Local PH</title>
 
         <!-- Google Fonts -->
         <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
