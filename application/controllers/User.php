@@ -67,6 +67,6 @@ class User extends CI_Controller {
 
 	private function delete_member() {
 		// delete user
-	}
+	}//
 
 }
