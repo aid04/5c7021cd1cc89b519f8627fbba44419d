@@ -129,7 +129,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                           </div>
 
-                          <!-- Controls -->
+                          <!-- Controls --><!--
                           <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
                             <span class="fa fa-chevron-left" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
@@ -137,7 +137,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                           <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
                             <span class="fa fa-chevron-right" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
-                          </a>
+                          </a>-->
                         </div>
                     </div>
                 </div>
@@ -299,46 +299,46 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                     <div class="col-sm-3">
                         <div class="col-sm-6 qi-box text-center">
-                            <i class="fa fa-bell"></i>
-                            <p>Food</p>
+                            <a href=""><i class="fa fa-bell"></i>
+                            <p>Food</p></a>
                         </div>
                         <div class="col-sm-6 qi-box text-center">
-                            <i class="fa fa-shopping-cart"></i>
-                            <p>Shop</p>
+                            <a href=""><i class="fa fa-shopping-cart"></i>
+                            <p>Shop</p></a>
                         </div>                      
                     </div>
 
 
                     <div class="col-sm-3">
                         <div class="col-sm-6 qi-box text-center">
-                            <i class="fa fa-briefcase"></i>
-                            <p>Services</p>
+                            <a href=""><i class="fa fa-briefcase"></i>
+                            <p>Services</p></a>
                         </div>
                         <div class="col-sm-6 qi-box text-center">
-                            <i class="fa fa-plane"></i>
-                            <p>Travel</p>
+                            <a href=""><i class="fa fa-plane"></i>
+                            <p>Travel</p></a>
                         </div>                      
                     </div>
 
                     <div class="col-sm-3">
                         <div class="col-sm-6 qi-box text-center">
-                            <i class="fa fa-smile-o"></i>
-                            <p>Leisure/ ReCreational</p>
+                            <a href=""><i class="fa fa-smile-o"></i>
+                            <p>Leisure/ ReCreational</p></a>
                         </div>
                         <div class="col-sm-6 qi-box text-center">
-                            <i class="fa fa-medkit"></i>
-                            <p>HealthCare</p>
+                            <a href=""><i class="fa fa-medkit"></i>
+                            <p>HealthCare</p></a>
                         </div>                      
                     </div>
 
                     <div class="col-sm-3">
                         <div class="col-sm-6 qi-box text-center">
-                            <i class="fa fa-building-o"></i>
-                            <p>Real Estate</p>
+                            <a href=""><i class="fa fa-building-o"></i>
+                            <p>Real Estate</p></a>
                         </div>
                         <div class="col-sm-6 qi-box text-center">
-                            <i class="fa fa-users"></i>
-                            <p>Beauty & Wellness</p>
+                            <a href=""><i class="fa fa-users"></i>
+                            <p>Beauty & Wellness</p></a>
                         </div>                      
                     </div>
                 </div>

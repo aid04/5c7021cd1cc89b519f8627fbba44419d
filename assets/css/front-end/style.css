@@ -1020,12 +1020,14 @@ a.carousel-control .fa{
 .quick-sec{
   margin-top: -80px;
 }
-.qi-box i{
+.qi-box a i{
   font-size: 50px;
   font-weight: 600;
+  color: #496174;
 }
 .qi-box{
   display: block;
+  color: #496174;
 }
 
 /*Featured Merchants adjusted design and layout*/
