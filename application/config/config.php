@@ -23,7 +23,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
+<<<<<<< HEAD
 $config['base_url'] = 'http://172.16.0.87/go-local-ph/';
+=======
+$config['base_url'] = 'http://172.16.0.87/git-golocal/';
+>>>>>>> 8fdbdd30d807dc622f49e17ec93cbd1ed935201a
 
 /*
 |--------------------------------------------------------------------------

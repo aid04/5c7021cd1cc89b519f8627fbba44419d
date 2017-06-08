@@ -21,5 +21,9 @@ class Pages extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('front-end/home');
+<<<<<<< HEAD
+=======
+		//
+>>>>>>> 8fdbdd30d807dc622f49e17ec93cbd1ed935201a
 	}
 }

@@ -132,4 +132,8 @@ $autoload['language'] = array();
 |
 |	$autoload['model'] = array('first_model' => 'first');
 */
+<<<<<<< HEAD
 $autoload['model'] = array();
+=======
+$autoload['model'] = array('encryptingmodel');
+>>>>>>> 8fdbdd30d807dc622f49e17ec93cbd1ed935201a
